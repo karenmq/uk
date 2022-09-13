@@ -1,0 +1,51 @@
+body {
+    background: #364156;
+    color: #BFC4CF;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 20% 5% 20%;
+    /* text-align: center; */
+}
+
+a {
+    color: #364156;
+    padding: 2%;
+    text-decoration: none;
+}
+
+/* BUTTONS */
+
+#london-button {
+    background: #E7737F;
+    margin-bottom: 1.5px;
+}
+
+#wales-button {
+    background: #DAFEB7;
+    margin-bottom: 1.5px;
+}
+
+#edinburgh-button {
+    background: #6ECCD8;
+}
+
+/* BOXES */
+
+.boxes {
+    margin: 5% 20% 5% 20%;
+    padding: 2%;
+    text-align: left;
+}
+
+#london-box {
+    border: 1px solid #E7737F;
+}
+
+#wales-box {
+    border: 1px solid #DAFEB7;
+}
