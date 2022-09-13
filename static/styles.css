@@ -18,6 +18,19 @@ a {
     text-decoration: none;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    border-bottom: 1px solid #3F4C64;
+    cursor: pointer;
+    font-family: serif;
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+}
+
 /* BUTTONS */
 
 #london-button {
@@ -48,4 +61,38 @@ a {
 
 #wales-box {
     border: 1px solid #DAFEB7;
+}
+
+/* CHECKBOX LISTS */
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    /* margin-bottom: 12px; */
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    border: 1px solid #3F4C64;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #364156;
 }
