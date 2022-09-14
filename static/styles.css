@@ -1,8 +1,15 @@
 body {
     background: #364156;
-    color: #BFC4CF;
+    /* color: #BFC4CF; */
     font-family: sans-serif;
     text-align: center;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 80px;
+    justify-content: center;
 }
 
 nav {
@@ -14,6 +21,8 @@ nav {
 
 a {
     color: #364156;
+    font-size: 24px;
+    font-weight: 700;
     padding: 2%;
     text-decoration: none;
 }
@@ -24,7 +33,8 @@ ul {
 }
 
 li {
-    border-bottom: 1px solid #3F4C64;
+    border-bottom: 2px solid #3F4C64;
+    color: #BFC4CF;
     cursor: pointer;
     font-family: serif;
     margin-bottom: 1%;
@@ -50,17 +60,24 @@ li {
 /* BOXES */
 
 .boxes {
-    margin: 5% 20% 5% 20%;
+    margin: 3% 20% 3% 20%;
     padding: 2%;
     text-align: left;
 }
 
 #london-box {
     border: 1px solid #E7737F;
+    color: #E7737F
 }
 
 #wales-box {
     border: 1px solid #DAFEB7;
+    color: #DAFEB7
+}
+
+#edinburgh-box {
+    border: 1px solid #6ECCD8;
+    color: #6ECCD8
 }
 
 /* CHECKBOX LISTS */
@@ -87,7 +104,7 @@ li {
 }
 
 .checkmark {
-    border: 1px solid #3F4C64;
+    border: 2px solid #3F4C64;
     border-radius: 5px;
     position: absolute;
     top: 0;
