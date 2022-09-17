@@ -1,6 +1,5 @@
 body {
     background: #364156;
-    /* color: #BFC4CF; */
     font-family: sans-serif;
     text-align: center;
 }
@@ -9,6 +8,7 @@ h1 {
     display: flex;
     flex-direction: column;
     font-size: 80px;
+    font-weight: 900;
     justify-content: center;
 }
 
@@ -16,8 +16,12 @@ nav {
     display: flex;
     flex-direction: column;
     margin: 5% 20% 5% 20%;
-    /* text-align: center; */
 }
+
+/* span {
+    display: inline-block;
+    margin: auto;
+} */
 
 a {
     color: #364156;
@@ -39,6 +43,24 @@ li {
     font-family: serif;
     margin-bottom: 1%;
     padding-bottom: 1%;
+}
+
+/* TITLE */
+
+.dark-grey {
+    color: #BFC4CF;
+}
+
+.light-grey {
+    color: #FFFFFF;
+}
+
+#first-2 {
+    margin: 5px;
+}
+
+#second-2 {
+    margin: 10px 0 5;
 }
 
 /* BUTTONS */
@@ -113,11 +135,6 @@ li {
     width: 20px;
     background-color: #364156;
 }
-
-/* When the checkbox is checked, add a blue background */
-/* .container input:checked ~ .checkmark {
-    background-color: #2196F3;
-  } */
   
   /* Create the checkmark/indicator (hidden when not checked) */
   .checkmark:after {
@@ -133,13 +150,26 @@ li {
   
   /* Style the checkmark/indicator */
   .container .checkmark:after {
-    left: 9px;
-    top: 5px;
+    left: 6.5px;
+    top: 2px;
     width: 5px;
     height: 10px;
-    border: solid white;
+    border: solid #BFC4CF;
     border-width: 0 3px 3px 0;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
+  }
+
+  @media only screen and (max-width: 800px) {
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        margin: 5% 1% 5% 1%
+    }
+
+    .boxes {
+        margin: 5% 1% 5% 1%
+    }
   }
