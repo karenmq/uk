@@ -18,11 +18,6 @@ nav {
     margin: 5% 20% 5% 20%;
 }
 
-/* span {
-    display: inline-block;
-    margin: auto;
-} */
-
 a {
     color: #364156;
     font-size: 24px;
@@ -174,6 +169,7 @@ li {
     }
 
     .boxes {
-        margin: 5% 1% 5% 1%
+        margin: 5% 1% 5% 1%;
+        padding: 5%;
     }
   }
